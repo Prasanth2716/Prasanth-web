@@ -1,0 +1,60 @@
+#d1
+{
+    border: 1px solid black;
+    height: 100vh;
+    background-color: yellowgreen;
+}
+#d2
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 3px solid red;
+    border-radius: 20px;
+    height: 300px;
+    width: 400px;
+    margin-top: 150px;
+    margin-left: 420px;
+    background-color: rgb(210, 179, 239);
+    
+
+    
+}
+h1
+{
+    text-align: center;
+}
+/* #d3 
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+#d4
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+   
+} */
+input
+{
+    border-radius: 5px;
+}
+#but
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+}
+div
+{
+    text-align: center;
+}
+button
+{
+    border-radius: 5px;
+}

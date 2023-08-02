@@ -1,0 +1,22 @@
+/* div{
+    border: 1px solid black;
+    min-width: 250px;
+   
+}
+span{
+    border: 1px solid black;
+    display: inline-block;
+    width: 250px;
+} */
+ div{
+    border: 2px solid black;
+    min-width: 250px;
+   
+}
+section
+{   
+    background-color: aqua;
+    border: 1px solid black;
+    display: inline-block;
+    width: 410px;
+}

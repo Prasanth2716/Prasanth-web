@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset
+        {
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend> <h1>student details</h1></legend>
+        <form action="#" method="" autocomplete="off" >
+          <table>
+            <tr>
+                   <td><label for="ulname"> First  Name :</label></td>
+                    <td> <input type="text" name="user-firstname" id="ufname" placeholder="Enter firstname"></td></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ulname"> Last  Name :</label></td>
+                        <td><input type="text" name="user-Lastname" id="ulname" placeholder="Enter lastname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="udob"> Date of birth:</label></td>
+                        <td><select name="Date of birth" id="udob"  required>
+                            <option value="null"> </option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <select name="month" id="udob" required>
+                            <option value="null"> </option>
+                            <option value="jan">jan</option>
+                            <option value="feb">feb</option>
+                            <option value="mar">mar</option>
+                            </select>
+                        <select name="year" id="uyear" required>
+                            <option value="null"> </option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="u-gen"> Gender:</label></td>
+                            <td><input type="radio" name="Gender" id="u-gen" value="male">Male
+                            <input type="radio" name="Gender" id="u-gen1" value="male">Female
+                            <input type="radio" name="Gender" id="u-gen2" value="male">Others</td>
+                    </tr>
+                    <tr>
+                        <td><label for="uemail"> E-mail :</label></td>
+                        <td><input type="email" name="user-email" id="uemail" placeholder="Enter email" required></td>
+                        </tr>
+                    <tr>
+                        <td><label for="u-num"> Mobile Number:</label></td>
+                        <td><input type="tel" name="user-number="u-num" placeholder="Enter Mobile number" pattern="[0-9]{10}" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="u-add"> Address:</label></td>
+                        <td><textarea name="user-address" id="u-add" col="30" rows="5" placeholder="Enter Address" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ucity"> City :</label></td>
+                        <td><input type="text" name="user-city" id="ucity" placeholder="Enter city"></td>
+                    </tr>
+                       <tr>
+                        <td><label for="upin">Pincode:</label></td>
+                        <td><input type="number" name="user-pincode" id="upin" placeholder="Enter pincode"></td>
+                    </tr>
+                    <tr>
+                       <td><label for="ucity">State :</label></td>
+                        <td><input type="text" name="user-state" id="ustate" placeholder="Enter state"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ucon">Country :</label></td>
+                        <td><input type="text" name="user-country" id="ucon" placeholder="Enter country"></td>
+                      </tr> 
+                      <tr>
+                        <td><label for="u-hob">Hobbies:</label></td>
+                            <td>
+                            <table>
+                            <tr>
+                            <td><input type="checkbox" name="drawing" id="u-hob" value="male">Drawing
+                            <input type="checkbox" name="singing" id="u-hob" value="male">singing
+                            <input type="checkbox" name="Dansing" id="u-hob" value="male">Dancing</td>
+                            </tr>
+                            <tr>
+                            <td><input type="checkbox" name="user-hobbies" id="u-hob" value="">others
+                            <input type="text" name="user-hobbies" id="u-hob" value=""></td>
+                        </tr>
+                            </table>
+                        </td>
+                      </tr>
+                    </tr>
+                    <tr>
+                        <td><label for="Qualification">Qualification</label></td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <th>SI.NO</th>
+                                    <th>EXAMINATION</th>
+                                    <th>BOARD</th>
+                                    <th>PERSENTAGE</th>
+                                    <th>YEAR OF PASSING</th>
+                                </tr>
+                                <TR>
+                                    <td>o1</td>
+                                    <td>CLASS X</td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>  
+                                </TR>
+                                <TR>
+                                    <td>02</td>
+                                    <td>CLASS II</td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                </TR>
+                                <TR>
+                                    <td>03</td>
+                                    <td>GRADUATION</td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                </TR>
+                                <TR>
+                                    <td>04</td>
+                                    <td>MASTER</td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                </TR>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                    <td><label for="ucou">COURSE APPLIED FOR</label></td>
+                    <td><input type="checkbox" name="course" id="ucou" value="msc">MSC
+                    <input type="checkbox" name="course" id="ucou" value="mcom">MCOM
+                    <input type="checkbox" name="course" id="ucou" value="bsc">BSC</td>
+                    </tr>
+                    
+
+                </thead>
+            </table>
+            <input type="submit">
+            <input type="Reset">
+    </fieldset>
+</body>
+</html>

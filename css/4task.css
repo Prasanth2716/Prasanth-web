@@ -1,0 +1,45 @@
+table
+{
+   border: 1px solid black;
+   text-align: center;
+   width: 700px;
+   border-collapse: collapse;
+   margin-left: 250px;
+   margin-top: 200px;
+   
+   }
+th{
+   background-color: bisque;
+   padding: 15px;
+   border-bottom: dotted blue;
+}
+#tr1
+{  
+   border: 2px;
+   border-bottom:double green;
+}
+td{
+   border: 1px solid black;
+}
+#tr2
+{  
+   border: 2px;
+
+   border-bottom:double violet;
+}
+/* #tr3
+{  
+  
+   border: 1px solid black;
+   border-width:5px ;
+   border-top-color: violet;
+} */
+#tr3
+{
+   background-color: white;
+}
+#tr3:last-child:hover{
+   background-color: yellow;
+   color: black;
+   transform:scale(1.0)
+}

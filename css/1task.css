@@ -1,0 +1,16 @@
+table
+{
+    border-collapse: collapse;
+    margin: 250px;
+
+}
+th{
+  background-color: blue;
+  padding: 15px;
+}
+tr
+{
+    border: 1px solid black;
+    padding: 8px;
+    word-spacing: 335px;
+}

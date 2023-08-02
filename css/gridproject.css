@@ -1,0 +1,75 @@
+#grid
+{
+    min-height: 100vh;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 336.5px 336.5px 336.5px ;
+    grid-template-rows: 512.9px 512.9px;
+    gap: 50px;
+    justify-content: center;
+}
+.c
+{
+    background-size: 100% ;
+    background-color: white;
+    background-repeat: no-repeat;    
+}
+#c1
+{
+    background-image: url("../img/pic07.jpg");    
+}
+#c2
+{
+    background-image: url("../img/pic06.jpg");
+}
+#c3
+{
+    background-image: url("../img/pic05.jpg");
+}
+#c4
+{
+    background-image: url("../img/pic04.jpg");
+}
+#c5
+{
+    background-image: url("../img/pic01.jpg");
+}
+#c6
+{
+    background-image: url("../img/pic02.jpg");
+}
+.con
+{
+    color: rgb(53, 53, 53);
+    position: relative;
+    top: 253px;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 20px;
+    background-color: white;
+}
+h1
+{
+    color: black;
+}
+button
+{
+    position: relative;
+    top: 280px;
+    left: 9px;
+    border: 1px solid black;
+    height: 50px;
+    width: 161px;
+    border-radius: 4px;
+    background-color: #252122;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+}
+*{
+    font-family: 'segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    background-color: #f7f7f7;
+}

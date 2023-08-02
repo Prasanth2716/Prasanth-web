@@ -1,0 +1,27 @@
+p{  
+    font-size: 30;
+    color:red;
+     text-align: center; 
+    /* text-decoration: none; */
+    /* text-shadow: 2px 1px black; */
+    text-transform: capitalize;
+    text-indent: 50px;
+    line-height: 50px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+div{
+    height: 600px;
+    border: 1px solid black;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.qoebgJIBWe4zjz2VqZz6nwHaLG&pid=Api&P=0&h=180),url(https://tse2.mm.bing.net/th?id=OIP.qoebgJIBWe4zjz2VqZz6nwHaLG&pid=Api&P=0&h=180);
+    background-repeat:no-repeat;
+    background-size: 250px 250px,250px 250px;
+    background-position: top right,left bottom;
+    background-attachment: scroll;
+}
+
+
+h1{
+ text-align: center;
+ /* color: white; */
+}

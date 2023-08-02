@@ -1,0 +1,70 @@
+#d1
+{
+    border: 1px solid black;
+    height: 100vh;
+    background-color: green;
+}
+#d2
+{
+    border: 5px solid red;
+    border-radius: 20px;
+    height: 350px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 400px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+    
+}
+h1
+{
+    text-align: center;
+}
+#d3
+{
+    display: flex;
+    justify-content: center;
+    
+}
+#d4
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#d5
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+#d6
+{
+    display: flex;
+    justify-content: center;
+}
+#but
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+}
+#d7
+{
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+button
+{
+    border-radius: 5px;
+}
+input
+{
+    border-radius: 5px;
+}

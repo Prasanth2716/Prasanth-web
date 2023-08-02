@@ -1,0 +1,35 @@
+#grid
+{
+    display: grid;
+    display: inline;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    height: 100vh;
+    gap: 5px;
+    text-align: center;
+}
+#grid > .grid-item
+{
+    border: 1px solid black;
+    text-align: center;
+    background-color: red;
+}
+    #f1
+    {
+        border: 3px solid black;
+        width: 400px;
+        background-color: gray;
+    }
+    #f2
+    {
+        border: 3px solid black;
+        width: 400px;
+        background-color: gray;
+    }
+    #f3
+    {
+        border: 3px solid black;
+        width: 600px;
+        background-color: gray;
+    }
+
